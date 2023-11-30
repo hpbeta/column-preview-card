@@ -1,0 +1,17 @@
+@media(max-width:1000px){
+    body{
+        padding: 30px;
+    }
+    .card-main{
+        flex-direction: column;
+        height: auto;
+    }
+    .card:nth-child(1){
+        border-bottom-left-radius:0;
+        border-top-right-radius: 8px;
+    }
+    .card:nth-child(3){
+        border-bottom-left-radius:8px;
+        border-top-right-radius: 0;
+    }
+}
