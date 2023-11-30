@@ -1,6 +1,6 @@
 body{
-    height: 100vh;
    color: #fff;
+   padding: 20px 0;
 }
 .card-main{
     display: flex;
